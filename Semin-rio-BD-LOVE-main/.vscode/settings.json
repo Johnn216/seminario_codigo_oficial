@@ -1,6 +1,5 @@
 {
     "java.project.referencedLibraries": [
-        "lib/**/*.jar", // Busca JARs em uma pasta 'lib' (OK)
-        "c:\\Users\\jhonathan.magalhaes\\Desktop\\mysql-connector-j-9.5.0\\mysql-connector-j-9.5.0.jar" // Caminho ABSOLUTO (PROBLEMA)
+        "lib/**/*.jar" // AGORA ELE BUSCA O JAR DENTRO DA PASTA 'lib' DO PROJETO!
     ]
 }
